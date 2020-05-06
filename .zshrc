@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/xian/.oh-my-zsh
+  export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -88,13 +88,16 @@ source $ZSH/oh-my-zsh.sh
 alias cls='clear'
 alias vi='vim'
 
-#alias gck='git checkout'
+alias gck='git checkout'
 alias gcm='git commit -m'
-#alias gps='git push'
-#alias gpl='git pull'
-alias gaa='git add .'
+alias gps='git push'
+alias gpl='git pull'
+alias ga='git add .'
+alias gaa='git add --all'
 alias gs='git status'
-#alias gb='git branch'
+alias gb='git branch'
+alias gl='git log'
+alias glo='git log --oneline'
 
 alias -s c=vi
 alias -s cpp=vi
@@ -108,4 +111,4 @@ export CLICOLOR='true'
 export LSCOLORS="gxfxcxdxbxegedabagacad"
 
 # Auto load zsh-syntax-highlighting, need to place at the end
-source /home/xian/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
