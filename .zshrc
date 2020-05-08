@@ -98,6 +98,10 @@ alias gs='git status'
 alias gb='git branch'
 alias gl='git log'
 alias glo='git log --oneline'
+alias gm='git merge'
+alias gr='git rebase'
+alias gri='git rebase -i'
+alias gf='git fetch'
 
 alias -s c=vi
 alias -s cpp=vi
@@ -109,6 +113,7 @@ alias pip3='python3 -m pip'
 export TERM=xterm-256color
 export CLICOLOR='true'
 export LSCOLORS="gxfxcxdxbxegedabagacad"
+export EDITOR=/usr/bin/vim
 
 # Auto load zsh-syntax-highlighting, need to place at the end
 source $ZSH/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
